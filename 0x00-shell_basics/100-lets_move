@@ -1,2 +1,2 @@
 #!/bin/bash
-file 15-lets_move /tmp/u
+mv grep/*[A-Z]* /tmp/u
