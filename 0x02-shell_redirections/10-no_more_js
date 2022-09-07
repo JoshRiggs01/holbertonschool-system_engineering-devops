@@ -1,2 +1,2 @@
 #!/bin/bash
-find -maxdepth X -type f . -name "*.js" | xargs rm
+find . -name "*.js" -type f -delete
