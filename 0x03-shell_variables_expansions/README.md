@@ -1,0 +1,1 @@
+creating a script that creates and alias named ls with value of rm*?
