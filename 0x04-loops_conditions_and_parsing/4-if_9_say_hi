@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+while :
+do
+	echo $a " Best School " 
+	if [ $a -eq 8 ]
+	then
+	    echo " Hi "
+	    echo " Best School " 
+	
+	((a++))
+ done
