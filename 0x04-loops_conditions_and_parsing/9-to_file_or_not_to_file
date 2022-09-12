@@ -2,10 +2,9 @@
 #creating a script that uses nested if statment in a loop
 
 file="school"
-if [ -e $file ]
+if [ -a $file ]
 then
-    echo "$file file esists"
-
+    echo "$file file exists"
     if [ -s $file ]
     then
 	echo "$file file is not empty"
