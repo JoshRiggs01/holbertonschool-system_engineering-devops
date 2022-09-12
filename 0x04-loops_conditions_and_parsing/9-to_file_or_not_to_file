@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
 #creating a script that uses nested if statment in a loop
 file=school
-if [ -a $file]
+if [ -e $file ]
 then
     echo " $file file esists "
 
-    if [ -b $file ]
+    if [ -s $file ]
     then
 	echo " $file file is not empty "
     else
 	echo " $file file is empty"
-    if
+    fi
 
-    if [ -c $file ]
+    if [ -f $file ]
     then
 	echo "$file is a regular file"
-    if
+    fi
     else
     echo "$file file does not exist"
 
