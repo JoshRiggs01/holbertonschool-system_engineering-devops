@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# using if, elif and else and then in a while loop to display bad luck on the 4th iteration and good luck on the 8th and Best School on all other lines.
+
+a=1
+while 
+     [ $a -le 10 ]
+do
+        echo "Best School" 
+        if [ $a -eq 4 ]
+        then
+            echo "bad luck"
+
+        elif [ $a -eq 8 ]
+	     then
+	echo "good luck"
+        fi
+        ((a++))
+ done
+ 
