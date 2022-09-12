@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
-while :
+count=10
+a=0
+while 
+     [ $a -le $count ]
 do
-	echo $a " Best School " 
-	if [ $a -eq 8 ]
+	echo " Best School " 
+	if [ $a -eq 9 ]
 	then
-	    echo " Hi "
-	    echo " Best School " 
-	
-	((a++))
+	    echo "Hi"
+	    exit
+	else
+	    echo "Best School"
+
+	    ((a++))
+	  fi 
  done
