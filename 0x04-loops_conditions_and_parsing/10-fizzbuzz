@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#creating a loop using if elif and else setting var equal to mutliples of..
 for x in {1..100}
 do
     if [ $((x % 5)) -eq 0 -a $((x % 3)) -eq 0 ]
