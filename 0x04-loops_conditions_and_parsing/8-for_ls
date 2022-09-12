@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#script that lists files, not hidden, using for loop
+
+for x in *
+do
+    echo "$x" | cut -f 2- -d '-'
+done
