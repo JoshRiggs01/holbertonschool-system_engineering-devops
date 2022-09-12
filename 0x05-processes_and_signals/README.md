@@ -1,0 +1,1 @@
+this is the readme file for 0x05 processes and signals. in this directory we can find exaples of ps pgrep pkill kill exit and trap as well as information abut linux PID process and signal
