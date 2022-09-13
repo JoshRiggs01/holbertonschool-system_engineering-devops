@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#this file is to show bash pid for all processes containing bash
+pgrep -l bash
